@@ -4,161 +4,193 @@
         "cards": [
             {
                 "path": "./assets/images/openings/alekhines_defense.png",
+                "type" : "IMAGE",
                 "key": "Alekhine's Defense",
                 "hint": ""
             },
             {
                 "path": "./assets/images/openings/kings_indian_attack.png",
+                "type" : "IMAGE",
                 "key": "King's Indian Attack",
                 "hint": ""
             },
             {
                 "path": "./assets/images/openings/benko_gambit.png",
+                "type" : "IMAGE",
                 "key": "Benko Gambit",
                 "hint": ""
             },
             {
                 "path": "./assets/images/openings/london_system.png",
+                "type" : "IMAGE",
                 "key": "London System",
                 "hint": ""
             },
             {
                 "path": "./assets/images/openings/benoni_defense_modern_variation.png",
+                "type" : "IMAGE",
                 "key": "Benoni Defense: Modern Variation",
                 "hint": ""
             },
             {
                 "path": "./assets/images/openings/nimzo_indian_defense.png",
+                "type" : "IMAGE",
                 "key": "Nimzo-Indian Defense",
                 "hint": ""
             },
             {
                 "path": "./assets/images/openings/birds_opening.png",
+                "type" : "IMAGE",
                 "key": "Bird's Opening",
                 "hint": ""
             },
             {
                 "path": "./assets/images/openings/nimzowitsch_larsen_attack.png",
+                "type" : "IMAGE",
                 "key": "Nimzowitsch-Larsen Attack",
                 "hint": ""
             },
             {
                 "path": "./assets/images/openings/bogo_indian_defense.png",
+                "type" : "IMAGE",
                 "key": "Bogo-Indian Defense",
                 "hint": ""
             },
             {
                 "path": "./assets/images/openings/pirc.png",
+                "type" : "IMAGE",
                 "key": "Pirc Defense",
                 "hint": ""
             },
             {
                 "path": "./assets/images/openings/caro_kann.png",
+                "type" : "IMAGE",
                 "key": "Caro-Kann Defense",
                 "hint": ""
             },
             {
                 "path": "./assets/images/openings/polish_opening.png",
+                "type" : "IMAGE",
                 "key": "Polish Opening",
                 "hint": ""
             },
             {
                 "path": "./assets/images/openings/catalan.png",
+                "type" : "IMAGE",
                 "key": "Catalan Opening",
                 "hint": ""
             },
             {
                 "path": "./assets/images/openings/queens_gambit.png",
+                "type" : "IMAGE",
                 "key": "Queen's Gambit",
                 "hint": ""
             },
             {
                 "path": "./assets/images/openings/dutch_defense.png",
+                "type" : "IMAGE",
                 "key": "Dutch Defense",
                 "hint": ""
             },
             {
                 "path": "./assets/images/openings/queens_indian_defense.png",
+                "type" : "IMAGE",
                 "key": "Queen's Indian Defense",
                 "hint": ""
             },
             {
                 "path": "./assets/images/openings/english.png",
+                "type" : "IMAGE",
                 "key": "English Opening",
                 "hint": ""
             },
             {
                 "path": "./assets/images/openings/reti_opening.png",
+                "type" : "IMAGE",
                 "key": "Reti Opening",
                 "hint": ""
             },
             {
                 "path": "./assets/images/openings/french.png",
+                "type" : "IMAGE",
                 "key": "French Defense",
                 "hint": ""
             },
             {
                 "path": "./assets/images/openings/ruy_lopez.png",
+                "type" : "IMAGE",
                 "key": "Ruy Lopez",
                 "hint": ""
             },
             {
                 "path": "./assets/images/openings/grob_opening.png",
+                "type" : "IMAGE",
                 "key": "Grob Opening",
                 "hint": ""
             },
             {
                 "path": "./assets/images/openings/scandinavian.png",
+                "type" : "IMAGE",
                 "key": "Scandinavian Defense",
                 "hint": ""
             },
             {
                 "path": "./assets/images/openings/grunfeld_defense.png",
+                "type" : "IMAGE",
                 "key": "Grundfeld Defense",
                 "hint": ""
             },
             {
                 "path": "./assets/images/openings/scotch_game.png",
+                "type" : "IMAGE",
                 "key": "Scotch Game",
                 "hint": ""
             },
             {
                 "path": "./assets/images/openings/italian.png",
-                "key": "Italian",
+                "type" : "IMAGE",
+                "key": "Italian Game",
                 "hint": ""
             },
             {
                 "path": "./assets/images/openings/sicilian.png",
-                "key": "Sicilian",
+                "type" : "IMAGE",
+                "key": "Sicilian Defense",
                 "hint": ""
             },
             {
                 "path": "./assets/images/openings/kings_fianchetto_attack.png",
+                "type" : "IMAGE",
                 "key": "King's Fianchetto Attack",
                 "hint": ""
             },
             {
                 "path": "./assets/images/openings/slav_defense.png",
+                "type" : "IMAGE",
                 "key": "Slav Defense",
                 "hint": ""
             },
             {
                 "path": "./assets/images/openings/kings_gambit.png",
+                "type" : "IMAGE",
                 "key": "King's Gambit",
                 "hint": ""
             },
             {
                 "path": "./assets/images/openings/trompowsky_attack.png",
+                "type" : "IMAGE",
                 "key": "Trompowsky Attack",
                 "hint": ""
             },
             {
                 "path": "./assets/images/openings/kings_indian.png",
+                "type" : "IMAGE",
                 "key": "King's Indian Attack",
                 "hint": ""
             },
             {
                 "path": "./assets/images/openings/vienna_game.png",
+                "type" : "IMAGE",
                 "key": "Vienna Game",
                 "hint": ""
             }
