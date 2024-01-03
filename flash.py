@@ -29,10 +29,13 @@ precise definition.
 '''
 LEVENSHTEIN_THRESHOLD = 0.90
 
+import app
 import json
 
 def main():
-    print(get_sets_configuration())
+    sets = get_sets_configuration()
+    proc = app.App(get_sets_configuration)
+    proc.run()
 
 def get_sets_configuration():
     with open(SETS_JSON_PATH, "r") as sets_file:
@@ -42,12 +45,23 @@ def preprocess_key(guess):
     return guess.lower()
 
 def is_guess_correct(guess, answer):
-    return correctness_score > LEVENSHTEIN_THRESHOLD
+    return correctness_score(guess, answer) >= LEVENSHTEIN_THRESHOLD
 
 def correctness_score(guess, answer):
     distance = levenshtein(guess, answer)
-    return (len(answer) - distance) / answer
+    return (len(answer) - distance) / len(answer)
 
+class Memoize:
+    def __init__(self, func):
+        self.func = func
+        self.memo = {}
+    
+    def __call__(self, *args):
+        if not args in self.memo:
+            self.memo[args] = self.func(*args)
+        return self.memo[args]
+
+@Memoize
 def levenshtein(a, b):
     if len(a) == 0:
         return len(b)
